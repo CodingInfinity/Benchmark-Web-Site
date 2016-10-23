@@ -86,7 +86,7 @@
                     data-splitin="none" 
                     data-splitout="none" 
                     data-responsive_offset="on"
-                    style="z-index: 5; white-space: nowrap;">Selling ebooks
+                    style="z-index: 5; white-space: nowrap;">Benchmarking Service
                 </div>
 
                 <!-- LAYER NR. 2 -->
@@ -107,7 +107,7 @@
                     data-splitin="none" 
                     data-splitout="none" 
                     data-responsive_offset="on"
-                    style="z-index: 5; white-space: nowrap;">easy as cake.
+                    style="z-index: 5; white-space: nowrap;">
                 </div>
 
 
@@ -128,7 +128,7 @@
                     data-splitin="none" 
                     data-splitout="none" 
                     data-responsive_offset="on"
-                    style="z-index: 5; white-space: nowrap;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud <br> exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    style="z-index: 5; white-space: nowrap;">Finally! A Benchmarking service that is<br/>not only flexible, but that requires allmost<br/>no configuration from the user<br/>and provides clear and simple reports!
                 </div>
 
 
@@ -173,14 +173,15 @@
             <div class="container">
 
               <div class="text-center mb-80 wow fadeInUp">
-                  <h2 class="section-title text-uppercase">About CodingInfinity</h2>
-                  <p class="section-sub">CodingInfinity is an orginisation which consists of 4 students. The orginisation was founded with the sole purpose of desining and implementing the Benchmarking service.</p>
+                  <h2 class="section-title text-uppercase">About Benchmark</h2>
+                  <p class="section-sub">The main goal of the system is to provide an accurate software benchmarking service that is very simple to use.</p>
               </div>
 
               <div class="row mb-80">
                 <div class="col-md-7 wow fadeInUp" data-wow-delay=".2s">
                   
-                  <p>The 4 member of the orginisation are all final year students enrolled at <strong><a href="http://www.cs.up.ac.za/">the University of Pretoria's Computer Science department</a></strong>. Despite this fact the group works well together since all members are aware of each other's stenghts and weaknesses and they play to them to ensure the best result is achieved.</p>
+                  <p>
+                  Please find to the right a slide show illustating how messages are sent in the system. Also find a link to a live demo of the system <strong><a href="#">here</a></strong>.</p>
 
                 </div><!-- /.col-md-7 -->
 
@@ -476,8 +477,9 @@
                               <i class="material-icons colored red-icon">&#xE90F;</i>
                           </div>
                           <div class="desc">
-                              <h2>Continuous Deployment (CD)</h2>
-                              <p>Ensures that reliable software can be released at anytime. Focusing on building, testing and releasing faster.</p>
+                              <h2>Continuous Integration (CI)</h2>
+                              <p>Ensures that no software is integrated to a master branch 
+                              or pushed to a repository if it does not meet certain quality standards.</p>
                           </div>
                       </div><!-- /.featured-item -->
                   </div><!-- /.col-md-4 -->
@@ -626,10 +628,8 @@
                         <div id="collapse-documentation" class="panel-collapse collapse in">
                           <div class="panel-body">
                             <ul>
-                              <li><a href="assets/docs/Benchmark Functional Requirements
-Documentation.pdf"><i class="fa fa-check-square"></i> Functional Requirements</a></li>
-                              <li><a href="assets/docs/Benchmark Service Architectural Requirements
-Documentation.pdf"><i class="fa fa-check-square"></i> Architectural Requirements</a></li>
+                              <li><a href="assets/docs/Benchmark Functional Requirements Documentation.pdf"><i class="fa fa-check-square"></i> Functional Requirements</a></li>
+                              <li><a href="assets/docs/Benchmark Service Architectural Requirements Documentation.pdf"><i class="fa fa-check-square"></i> Architectural Requirements</a></li>
                               <li><a href="assets/docs/Installation Manual.pdf"><i class="fa fa-check-square"></i> Installation Manual</a></li>
                               <li><a href="assets/docs/Testing Documentation.pdf"><i class="fa fa-check-square"></i> Testing Documentation</a></li>
                               <li><a href="assets/docs/Web Application User Manual.pdf"><i class="fa fa-check-square fa-1g"></i> User Manual</a></li>
@@ -728,11 +728,11 @@ Documentation.pdf"><i class="fa fa-check-square"></i> Architectural Requirements
           <div class="container">
             <div class="row">
               <div class="col-md-6 wow fadeInUp" data-wow-delay=".2s">
-                <h1 class="text-uppercase white-text mb-30">New Books are Comming</h1>
-                <p class="white-text">Quisque non erat mi. Etiam congue et augue sed tempus. Aenean sed ipsum luctus, scelerisque ipsum nec, iaculis justo. Sed at vestibulum purus, sit amet viverra diam. Nulla ac nisi rhoncus, faucibus leo id, consequat mauris.</p>
+                <h1 class="text-uppercase white-text mb-30">Contact the developers</h1>
+                <p class="white-text">Please feel free to contact using this form and we will answer any questions or queries you may have.</p>
               </div>
               <div class="col-md-5 col-md-offset-1 wow fadeInUp" data-wow-delay=".4s">
-                  <form class="white-form" name="contact-form" id="contactForm" action="sendemail.php" method="POST">
+                  <form class="white-form" name="contact-form" id="contactForm" action="https://formspree.io/reinhardt.cromhout@gmail.com" method="POST">
 
                     <div class="input-field">
                       <input type="text" name="first-name" class="validate" id="first-name">
@@ -746,10 +746,15 @@ Documentation.pdf"><i class="fa fa-check-square"></i> Architectural Requirements
 
                     <div class="input-field">
                       <input id="email" type="email" name="email" class="validate" >
-                      <label for="email" data-error="wrong" data-success="right">Email Address*</label>
+                      <label for="email" data-error="wrong" data-success="right">Contact Email Address*</label>
                     </div>
 
-                    <button type="submit" name="submit" class="waves-effect waves-light btn btn-block white red-text mt-30">Subscribe</button>
+  	                <div class="input-field">
+                      <textarea id="body" type="text" name="body" class="validate" ></textarea>
+                      <label for="body">Query</label>
+                    </div>
+
+                    <button type="submit" name="submit" class="waves-effect waves-light btn btn-block white red-text mt-30">Send</button>
                   </form>
               </div>
             </div>
